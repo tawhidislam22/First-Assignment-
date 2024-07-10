@@ -6,6 +6,7 @@
 header{
     width: 100%;
     height: 600px;
+    margin-bottom: 80px;
 }
 header nav{
     width: 100%;
@@ -77,4 +78,79 @@ header nav button{
     position: absolute;
     bottom: 8%;
 
+}
+.hero-container{
+    width: 72%;
+    height: 900px;
+    margin: auto;
+}
+.hero-title{
+    height: 20%;
+    width: 100%;
+    text-align: center;
+}
+.hero-title h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+.hero-title p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: .7;
+    margin-top: 20px;
+}
+.hero-content-1{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-content-text{
+    margin-left: 40px;
+}
+.hero-content-text h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.hero-content-text p{
+    font-family:  Azeret Mono;
+    Font-weight: 300;
+    Font-size:12px;
+    margin-bottom: 20px;
+}
+#bton{
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    height: 30px;
+    width: 100px;
+    background-color: white;
+}
+.hero-content-image{
+    margin-right: 100px;
+}
+
+.hero-content-image img{
+    height: 180px;
+    width: 200px;
+}
+.hero-content-2{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-content-2 .hero-content-text{
+    margin-right: 120px;
+    margin-left: 0%;
+}
+.hero-content-2 .hero-content-image{
+    margin-left: 30px;
 }
