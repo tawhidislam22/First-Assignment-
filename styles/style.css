@@ -75,10 +75,13 @@ header nav button{
     font-size: 12px;
     color: white;
     background: rgb(13, 19, 33);
-    position: absolute;
-    bottom: 8%;
+    
 
 }
+.banner a{
+    position: absolute;
+    bottom: 8%;
+} 
 .hero-container{
     width: 72%;
     height: 900px;
@@ -378,4 +381,30 @@ font-size: 16px;
     border-radius: 8px;
     background: rgb(255, 255, 255);
     border: none;
+}
+#contract-me{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+.contract-container{
+    padding: 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contract-container h5{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.contract-info img{
+    height: 30px;
+    width: 20px;
+}
+.contract-info{
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
