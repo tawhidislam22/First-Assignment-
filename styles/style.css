@@ -335,3 +335,47 @@ header nav button{
     font-weight: 500;
     margin-top: 20px;
 }
+.support{
+    height: 300px;
+    width: 90%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) ,url('../assets/handshake.jpg');
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 16px;
+}
+.support-container{
+   padding: 64px 250px;
+   text-align: center;
+}
+.support-container h2{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.support-container p{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+   font-weight: 300;
+   margin-bottom: 20px;
+}
+.support-container input{
+    height: 45px;
+    width: 400px;
+    padding-left: 30px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+}
+.support-container button{
+    width: 100px;
+    height: 45px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+}
