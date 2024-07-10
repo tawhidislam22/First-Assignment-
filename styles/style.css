@@ -19,7 +19,6 @@ header nav{
 }
 header nav h2{
     font-family:Azeret Mono ;
-
     Font-weight: 550;
     Font-size: 24px;
     margin-left: 120px;
@@ -414,7 +413,7 @@ font-size: 16px;
 }
 .contract-info img{
     height: 30px;
-    width: 20px;
+    width: 30px;
 }
 .contract-info{
     display: flex;
