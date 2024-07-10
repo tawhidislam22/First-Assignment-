@@ -193,6 +193,7 @@ header nav button{
     width: 90%;
     height: 400px;
     margin: auto;
+    margin-bottom: 80px;
 
 }
 .target-content{
@@ -258,4 +259,79 @@ header nav button{
     font-size: 14px;
     font-weight: 500;
     margin-left: 20px;
+}
+.next-target-container{
+    height: 900px;
+    width: 90%;
+    margin: auto;
+}
+.next-target-content{
+    height: 15%;
+    width: 100%;
+    text-align: center;
+}
+.next-target-content h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 20px;
+
+}
+.next-target-content p{
+    opacity: .7;
+    font-family:  Azeret Mono;
+    Font-weight: 300;
+    Font-size:12px;
+    margin-top: 20px;
+
+}
+.next-target-items{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.next-target-item{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+}
+.next-image img{
+    height: 108px;
+    width: 120px;
+}
+.next-target-item-content{
+    width: 70%;
+    height: 100%;
+}
+.next-target-item-content h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.next-target-item-content p{
+    opacity: .7;
+    font-family:  Azeret Mono;
+    Font-weight: 300;
+    Font-size:12px;
+    margin-bottom: 20px;
+
+}
+.next-target-item-content a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
 }
