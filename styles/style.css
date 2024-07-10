@@ -83,6 +83,7 @@ header nav button{
     width: 72%;
     height: 900px;
     margin: auto;
+    margin-bottom: 50px;
 }
 .hero-title{
     height: 20%;
@@ -153,4 +154,108 @@ header nav button{
 }
 .hero-content-2 .hero-content-image{
     margin-left: 30px;
+}
+.inspiration-container{
+    height: 550px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.inspiration-container h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    
+}
+.inspiration-container p{
+    font-family:  Azeret Mono;
+    Font-weight: 300;
+    Font-size:12px;
+    margin-bottom: 20px;
+}
+.video{
+    height: 80%;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+.video iframe{
+    margin: 30px 50px;
+    height: 88%;
+    width: 85%;
+    border-radius: 10px;
+}
+.target-container{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+
+}
+.target-content{
+    text-align: center;
+}
+.target-content h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.target-content p{
+    opacity: .7;
+    font-family:  Azeret Mono;
+    Font-weight: 300;
+    Font-size:12px;
+    margin-bottom: 20px;
+
+}
+.target-items{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 35px;
+}
+.target-item{
+    height: 85%;
+    width: 28%;
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+    align-items: center;
+}
+.target-item img{
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.target-item h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.target-item p{
+    opacity: .7;
+    font-family:  Azeret Mono;
+    Font-weight: 300;
+    Font-size:12px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.target-item a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 20px;
 }
